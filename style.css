@@ -1,0 +1,91 @@
+body{
+  background-color: #ddd;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+   justify-items: center;
+   gap: 60px;
+   margin-top: 60px;
+}
+h1,h2,h3,p{
+  margin: 0px;
+}
+p{
+  font-size: 20px;
+}
+img{
+  max-width: 100%;
+}
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.menu a{
+  background-color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.conteudo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+.introducao{
+  position: relative;
+  display: grid;
+  background-color: white;
+  padding: 40px;
+  justify-items: end;
+  align-content: center;
+  text-align: right;
+  gap: 20px;
+}
+.botao{
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+.subtitulo{
+  font-size: 64px;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.2);
+  align-self:center ;
+  padding: 40px;
+  text-transform: uppercase;
+}
+.vantagens{
+  background-color: white;
+  padding: 40px;
+}
+.vantagens-item{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+.vantagens p{
+  grid-column: 2;
+}
+.detalhe{
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background-color: red;
+  top: 30px;
+  right: -30px;
+}
+.rodape{
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+}
+
+
+
